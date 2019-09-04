@@ -1,0 +1,133 @@
+*{
+    /*font-family: 'Monserrat', sans-serif;*/
+    font-family: 'Raleway', sans-serif;
+   
+}
+
+
+body::-webkit-scrollbar { width: 0 !important }
+body{
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+}
+
+#app{
+    max-width: 100vw;
+ 
+    display: flex;
+}
+.bg-color{background-color: rgb(255, 99, 132) ;background-color: #6D7AE0; color: white; height: 45px;}
+#main{
+    background-color:#f2f2f2;
+    background-color: #2F323A;
+    background-color: #232730;
+    height: auto;
+    min-height: 100vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+}
+
+#menu *{color:white;}
+#menu img{
+    width: 20px;
+    height: 20px;
+    margin-right: 2px;
+}
+#menu>div div:nth-child(1){
+    cursor: pointer;
+    color: white;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items:  center;
+    margin-left: 5px;
+}
+
+#menu  div p{
+    margin-left: 5px;
+}
+#titulo h3{margin:0 !important;}
+#titulo{width: 100%; display: flex; justify-content: center; padding: 20px 0 20px 0}
+#menu{
+
+    align-items: flex-start;
+    display:flex;
+    flex-direction: column;
+
+    height: auto;
+    min-height: 100vh;
+    width: 10%;
+    min-width: 160px;
+    background-color: #353942;
+    background-color: #282f41;
+    background-color: #4a5864;
+}
+
+
+
+.doble{display:flex;}
+.doble input, .doble select{
+
+    width: 50%;
+}
+.doble input:nth-child(1){margin-right:10px;}
+
+.triple input{
+ 
+    margin-right: 10px
+} .triple input:nth-child(3){margin-right: 0;}
+
+.triple {
+    display:flex;
+    border-bottom: .1px solid #d3d3d3;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.drop{
+    display: none;
+}
+
+.drop{
+    padding-left: 10px;
+}
+
+
+.top-title{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+    height: 50px;
+    background-color: #353942;
+}
+
+.flex{display:flex}
+.justify-items-center{justify-items: center}
+.flex-column{flex-direction: column}
+
+
+
+/*   Seccion de alertas */
+.alerta-success{
+    height: 50px;
+    width: 90%;
+    background-color: #5EF2A0;
+    display: none;
+}
+
+
+.alerta-error{
+    height: 50px;
+    width: 90%;
+    background-color: #e66f66;
+    display: none;
+}
+
+/*  ----------------    */

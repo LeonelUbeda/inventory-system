@@ -1,9 +1,9 @@
 # Inventarios
 
 
-# Que rayos es?
+# Que es?
 
-  - Es un sistema de inventarios
+  - Es un sistema de inventarios enfocado a una tienda.
 
 ## Problemas
- - Muchos, sigue en desarrollo
+ - Muchos, estabamos aprendiendo.

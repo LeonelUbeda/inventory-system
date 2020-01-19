@@ -1,10 +1,7 @@
 const {VueLoaderPlugin} =require('vue-loader')
-
-
-
 module.exports = {
     mode: 'development',
-    watch: true,
+    watch: false,
     entry: {
         Vue: ['./src/Frontend/App.js',]
     },
